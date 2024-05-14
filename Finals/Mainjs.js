@@ -39,7 +39,7 @@ function Login(){
     if (username == "James" && password == "ocariza") {
         document.getElementById("username").value = null;
         document.getElementById("password").value = null;
-        window.location.href = "finals.html";
+        window.location.href = "Finals.html";
     }else{
         attempt++
         if(attempt == 3){
