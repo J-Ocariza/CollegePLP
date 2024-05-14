@@ -67,7 +67,7 @@ function Login(){
 }
 
 function logout(){
-    window.location.href = "Login.html";
+    window.location.href = "index.html";
 }
 
 function contact_submit(){
