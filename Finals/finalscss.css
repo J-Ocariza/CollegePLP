@@ -146,13 +146,31 @@
   color: black;
   font-size: 20px;
 }
-
+.total{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 1%;
+  top: 7%;
+  z-index: 999;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+}
 .total p, label{
-font-size: 40px;
+text-align: left;
+margin-left: 10px;
+margin-right: 5px;
+margin-top: 3px;
+margin-bottom: 3px;
+width: 350px;
+max-width: 350px;
+font-size: 25px;
 font-weight: bold;
 }
 .total input[type = button]{
 font-weight: bold;
+margin: 5px;
 width: 100px;
 height:27px;
 border-radius: 10px;
