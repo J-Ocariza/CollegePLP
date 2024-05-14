@@ -158,6 +158,7 @@
   border-radius: 10px;
 }
 .total p, label{
+color: black;
 text-align: left;
 margin-left: 10px;
 margin-right: 5px;
