@@ -116,7 +116,7 @@ function hide(){
 }
 function show(i){
     var pop = document.getElementById("popup");
-    var images = ["sofa1.png","chair1.png","chair2.png"];
+    var images = ["Sofa1.png","Chair1.png","Chair2.png"];
     var text =["The sofa combines simplicity with comfort, featuring a thick seat, padded armrests, and soft back cushions that provide a cozy seating experience. Its lightweight design makes it easy to move, whether you're rearranging your current space or transitioning to a new home. The slightly angled metal legs not only contribute to the sofa's stability but also add a unique touch, giving it a distinct personality that complements various decor styles."
                 ,"The white table combines functionality with style, fitting seamlessly into any home decor. Its honeycomb paper construction provides both strength and lightness, making it easy to move around as needed."
                 ,"Each armchair is meticulously handmade by skilled craftspeople, ensuring its individuality and uniqueness. Crafted from rattan, a natural material renowned for its timeless beauty, the armchair ages gracefully, developing its own distinct character over time. Lightweight and easy to maneuver, it allows for effortless cleaning or furniture rearrangement. Additionally, plastic feet safeguard your floors from scratches, adding to both the practicality and longevity of this charming piece."]
