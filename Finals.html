@@ -1,0 +1,401 @@
+<html>
+    <head>
+        <link rel="stylesheet" type ="text/css" href="finalscss.css">
+        <title> James The Builder Furnitures </title>
+        <script src = "Mainjs.js" type="text/Javascript">
+
+            
+    </script>
+<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<BODY bgcolor = "B7A9A0" TEXT = "White" align = "Center" onload="start()">
+<a id="home"></a>
+<div class="topnav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+    <a onclick="logout()" style="float: inline-end;">Logout</a>
+</div><br>
+<div class="fronthome">
+    <img src="logo.png" alt="logo">
+    <p class="head">J.A.O FURNITURES</p> 
+    <p class="content">Enrich Your Home, Enrich Your Life - Explore Our Inspired Furniture Creations Today.</p>
+    <a href="#products" id ="typing"></a> 
+</div> 
+
+
+<a href="#contact"><img src="down-arrow.png" class="arrownav"></a>
+<a id="about"></a>
+<div class="about-container">
+    <br>
+    <P style="font-family: 'EB Garamond';font-size: 50px; text-align: center; font-weight: bolder;">About</P>
+    <p id="abouttext" >
+        Welcome to JAO Furniture, where craftsmanship meets elegance. At JAO, we believe that furniture is more than just functional; it's an expression of your style and personality. Our meticulously curated collection showcases the finest pieces, blending timeless designs with modern innovation. Each item in our range is crafted with the utmost attention to detail, ensuring unparalleled quality and durability. Whether you're looking to furnish a cozy nook or revamp an entire living space, JAO Furniture offers a diverse selection to suit every taste and need. Experience the perfect harmony of comfort, beauty, and functionality with JAO Furniture, your trusted partner in creating inviting and inspiring interiors.</p>
+    <img src="logo.png">
+</div>
+<a id="products"></a>
+
+<br><P style="font-family: 'EB Garamond';font-size: 50px; text-align: center; color: black; font-weight: bold; margin-top: 10px;">Products</P>
+<hr color="white">
+<hr color="Gray">
+<hr color="white">
+<p class="category-label">Chairs</p>
+<div class="product-container">
+    <div class="product-box" onclick="show(0,9500)" >
+        <img src="Sofa1.png" alt="Sofa" >
+        <h1>Small Sofa</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P9,500.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box"  onclick="show(1,2900)">
+        <img src="chair1.png" alt="Chair" >
+        <h1>Gray Chair</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P2,900.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(2,6500)">
+        <img src="chair2.png" alt="Chair"  >
+        <h1>Rattan Chair</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P6,500.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(3,5500)">
+        <img src="chair3.png" alt="Chair">
+        <h1>Green Chair</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P5,500.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box"onclick="show(4,8500)">
+        <img src="chair4.png" alt="Chair" >
+        <h1>Black Chair</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P8,500.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="spacer">
+<hr color="white">
+<hr color="Gray">
+<hr color="white">
+</div>
+<p class="category-label">Tables</p>
+<div class="product-container">
+    <div class="product-box" onclick="show(5,13900)" >
+        <img src="table1.png" alt="Table" >
+        <h1>Glass Table</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P13,900.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box"  onclick="show(6,10000)">
+        <img src="table2.png" alt="Table" >
+        <h1>Black-Red Table</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P10,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(7,15000)">
+        <img src="table3.png" alt="Table"  >
+        <h1>Work Table</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P15,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(8,8900)">
+        <img src="table4.png" alt="Table">
+        <h1>Office Table</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P8,900.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(9,14800)">
+        <img src="table5.png" alt="Table" >
+        <h1>L-shaped Table</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P14,800.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="spacer">
+    <hr color="white">
+    <hr color="Gray">
+    <hr color="white">
+</div>
+<p class="category-label">Storage</p>
+<div class="product-container">
+    <div class="product-box" onclick="show(10,20000)" >
+        <img src="storage1.png" alt="Storage" >
+        <h1>L Wood Drawer</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P20,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box"  onclick="show(11,5000)">
+        <img src="storage2.png" alt="Storage" >
+        <h1>S White Shelf</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P5,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(12,25000)">
+        <img src="storage3.png" alt="Storage"  >
+        <h1>L Corner Shelf</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P25,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(13,12500)">
+        <img src="storage4.png" alt="Storage">
+        <h1>L Black Shelf</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P12,500.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(14,9300)">
+        <img src="storage5.png" alt="Storage" >
+        <h1>Column Shelf</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P9,300.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="spacer">
+    <hr color="white">
+    <hr color="Gray">
+    <hr color="white">
+</div>
+</div>
+<p class="category-label">Bed Frame</p>
+<div class="product-container">
+    <div class="product-box" onclick="show(15,10500)" >
+        <img src="bed1.png" alt="Bed" >
+        <h1>Green Frame</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P10,500.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box"  onclick="show(16,18000)">
+        <img src="bed2.png" alt="Bed" >
+        <h1>Wood Frame</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P18,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(17,9500)">
+        <img src="bed3.png" alt="Bed"  >
+        <h1>Storage Frame</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P9,500.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(18,12000)">
+        <img src="bed4.png" alt="Bed">
+        <h1>Gray Frame</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P12,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+    <div class="product-box" onclick="show(19,8000)">
+        <img src="bed5.png" alt="Bed" >
+        <h1>Steel Frame</h1>
+        <hr>
+        <table class="product-table">
+            <th class="price">
+                P8,000.00
+            </th>
+            <tr>
+                <td><button type="button" name="button" > <i class="fa-solid fa-cart-shopping"></i> </button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<hr color="white">
+<hr color="Gray">
+<hr color="white">
+
+
+<div class="total">
+    <p>Total: <label id = "total">0</label></p>
+    <input type="button" value="Check Out!" onclick="bought()">
+    <input type="button" value="Clear" onclick="clearTotal()">
+</div>
+
+
+
+<a id="contact"></a> <br>
+<p style="font-size: x-large; font-family: 'Courier New', Courier, monospace; font-weight: bolder;"> Contact Me</p>
+<div class="contacts">
+    <img src="logo.png" alt="logo" style="width: 50%; align-self: center;">
+    <p>Name: <input type="text" style="width: 300px; margin-left: 11px;" id="cname" /> </p>
+    <p>Email: <input type="text" style="width: 300px;" id="cmail" /> </p>
+    <p>Message:<p> <textarea style="width: 481px; height: 87px; resize: none; border-radius: 10px; " id="cmessage" ></textarea> 
+    <input type="button" value="Submit" onclick="contact_submit()">
+</div>
+<p class="created-by" >Created By: James Andrew A. Ocariza</p>
+
+<div class="popup-container" id="popup" >
+    <img src="" id="popimage">
+    <p id="poptext"></p>
+
+    <div class="x-circle" onclick="hide()">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="pop-btn">
+        <button type="button" name="button" onclick="minquan()">
+            <i class="fa-solid fa-minus"></i>
+        </button>
+        <input type="text" id="quant" value="0" readonly>
+        <button type="button" name="button" onclick="addquan()">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+        <button type="button" name="button" id="cartpop" onclick="totalis()"> <i class="fa-solid fa-cart-shopping" ></i> </button>
+
+    </div>
+</div>
+
+<div class="popinfo" id="popinfo">
+    <img src="logo.png" alt="logo" style="width: 50%; align-self: center;">
+    <div class="forms">
+        <p>Name:<input type="text"  id="infoname"></p>
+        <p>Email:<input type="text"  id="infoem"></p>
+        <p>Address:<input type="text"  id="infoadd"></p>
+        <input type="button" value="Submit" onclick="submitinfo()">
+    </div>
+    <div class="x-circle" onclick="hidepopinfo()">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-container">
+       <a href="https://www.facebook.com/jamesandrew.ocariza.9/"> <i class="fa-brands fa-square-facebook"></i></a>
+        <a href="mailto: ocariza.jamesandrew@plpasig.edu.ph"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://www.instagram.com/apandesal?igsh=dHB6Y3Y2czR5Ynps"><i class="fa-brands fa-instagram"></i></a>
+        <p>Sms/Call: <font style="text-decoration: underline; font-size: medium;">0912345678910</font></p>
+    </div>
+</footer>
+    </body>
+</html>
